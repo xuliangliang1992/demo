@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_title">@dimen/x36</dimen> <!--标题title字体大小-->
+    <dimen name="text_size_normal">@dimen/x32</dimen><!-- 正常的页面显示文字大小-->
+
+    <dimen name="text_size_item">14sp</dimen>
+    <dimen name="text_size_note">13sp</dimen>
+    <dimen name="text_size_tab">12sp</dimen>
+</resources>

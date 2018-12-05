@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_title">@dimen/x36</dimen> <!--标题title字体大小-->
+    <dimen name="text_size_42">@dimen/x42</dimen> <!--标题title字体大小-->
+    <dimen name="text_size_40">@dimen/x40</dimen> <!--标题title字体大小-->
+    <dimen name="text_size_34">@dimen/x34</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_36">@dimen/x36</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_32">@dimen/x32</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_30">@dimen/x30</dimen>
+    <dimen name="text_size_28">@dimen/x28</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_26">@dimen/x26</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_24">@dimen/x24</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_22">@dimen/x22</dimen><!-- 正常的页面显示文字大小-->
+    <dimen name="text_size_20">@dimen/x20</dimen><!-- 正常的页面显示文字大小-->
+
+    <dimen name="padding_horizontal">@dimen/x30</dimen><!-- 左右边距 -->
+    <dimen name="padding_vertical">@dimen/y30</dimen><!-- 上下边距 -->
+    <dimen name="padding_vertical_20">@dimen/y20</dimen><!-- 上下边距 -->
+
+    <!-- 工具主页图标大小 -->
+    <dimen name="icon_x">@dimen/x64</dimen>
+    <dimen name="icon_y">@dimen/y64</dimen>
+</resources>

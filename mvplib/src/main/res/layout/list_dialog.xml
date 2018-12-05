@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/base_blue">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/x30"
+                android:src="@drawable/btn_back"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x36"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        app:closeIcon="@drawable/ic_close_24dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="快速查询"
+        app:searchIcon="@drawable/ic_search_24dp"/>
+
+    <com.xll.mvplib.EmptyRecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1102"
+        android:background="@color/base_bg_color"
+        android:paddingBottom="@dimen/y40"
+        />
+
+    <RelativeLayout
+        android:id="@+id/ll_emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1184"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/x300"
+            android:layout_height="@dimen/x300"
+            android:layout_above="@+id/tv_text"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/no_data"/>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/y20"
+            android:text="没有相关数据"
+            android:textColor="@color/base_black_6"
+            android:textSize="@dimen/x28"/>
+    </RelativeLayout>
+</LinearLayout>

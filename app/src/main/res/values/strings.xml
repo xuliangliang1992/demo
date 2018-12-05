@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">宠伴</string>
+    <string name="time_out">网络连接超时</string>
+    <string name="net_error">网络异常!</string>
+    <string name="star">星球</string>
+    <string name="square">广场</string>
+    <string name="information">信息</string>
+    <string name="oneself">自己</string>
+    <string name="login_content"></string>
+    <string name="login_title">宠伴</string>
+    <string name="agreement">宠伴用户协议</string>
+</resources>

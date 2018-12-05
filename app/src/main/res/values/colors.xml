@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_3">#333333</color>
+    <color name="black_6">#666666</color>
+    <color name="black_45">#454545</color>
+    <color name="black_5">#555555</color>
+    <color name="black_4e">#4e4844</color>
+    <color name="black_9">#999999</color>
+    <color name="black_c">#cccccc</color>
+    <color name="black_d">#dddddd</color>
+    <color name="black_7">#777777</color>
+    <color name="black_b7">#B7B7B7</color>
+    <color name="black_78">#787878</color>
+    <color name="divide_color">#e6e6e6</color>
+    <color name="black_f3">#f3f3f3</color>
+    <color name="black_a2">#a2a2a2</color>
+
+    <color name="dialog_red">#ff3900</color>
+    <color name="default_text_color">#ff6033</color>
+    <color name="default_bg">#f9eae6</color>
+    <color name="hint">#BFBFBF</color>
+    <color name="btn_un_click">#FDCBBD</color>
+    <color name="btn_click">#FF5B2C</color>
+    <color name="btn_to_buy">#E9E9E9</color>
+    <color name="login_text_gray">#5B5B5B</color>
+    <color name="login_line_gray">#E6E6E6</color>
+    <color name="login_bottom_text_gray">#A7A7A7</color>
+    <color name="login_bottom_text_black">#151515</color>
+
+    <color name="main_tab_color">#FE5F32</color>
+    <color name="star_color">#ff683d</color>
+</resources>
